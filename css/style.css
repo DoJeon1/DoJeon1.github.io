@@ -221,7 +221,7 @@ nav { display: none; }
     
     /* Checks if there is a sibling and adds a margin to the left of the sibling */
     .service + .service {
-        margin-left: 2em;
+        margin-right: 2em;
     }
 }
 
