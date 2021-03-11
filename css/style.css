@@ -70,7 +70,7 @@ strong { font-weight: var(--fw-bold) }
 
 .btn {
     display: inline-block;
-    padding: .5em 1.5em;
+    padding: .5em 2.5em;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
@@ -214,7 +214,8 @@ nav { display: none; }
     .services {
         display: flex;
         max-width: 1000px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     
    /* Checks if there is a sibling and adds a margin to the left of the sibling */
