@@ -180,7 +180,7 @@ nav { display: none; }
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url("img/services-bg.jpeg");
+    background-image: url(../img/services-bg.jpeg);
     background-size: cover;
     background-blend-mode: multiply; /* Darkens the image (makes text easier to read) */
     color: var(--clr-light);
