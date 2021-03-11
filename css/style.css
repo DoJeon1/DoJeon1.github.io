@@ -1,6 +1,7 @@
-/* Adapted from online course "Build and deploy your portfolio 
-   scrimba.com, Kevin Powell 
-   code edits made by Daniel Jeon */
+/* Adapted from online course "Build and deploy your portfolio" */
+/* scrimba.com by Kevin Powell                                  */
+/* code edits made by Daniel Jeon                               */
+
 *,
 *::before,
 *::after {
@@ -24,7 +25,7 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
-    
+
     /* Properties for box shadow, second line adds a more realistic layer */
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
@@ -156,7 +157,7 @@ nav { display: none; }
         grid-template-columns: min-content max-content;
     }
     
-    /* Places text bar behind image */
+    /* Places text bar behind image */   
     .intro__img {
         grid-area: img;
         min-width: 250px;
@@ -174,14 +175,14 @@ nav { display: none; }
         width: calc(100% + 1.5em);
     }
 }
-   
+
 /*  My services section  */
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpeg);
+    background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    background-blend-mode: multiply; /* Darkens the image */
+    background-blend-mode: multiply; /* Darkens the image (makes text easier to read) */
     color: var(--clr-light);
     text-align: center;
 }
@@ -202,7 +203,7 @@ nav { display: none; }
 }
 
 .services {
-   margin-bottom: 4em;
+    margin-bottom: 4em;
 }
 
 .service {
@@ -218,13 +219,11 @@ nav { display: none; }
         margin-right: auto;
     }
     
-   /* Checks if there is a sibling and adds a margin to the left of the sibling */
+    /* Checks if there is a sibling and adds a margin to the left of the sibling */
     .service + .service {
         margin-left: 2em;
     }
 }
-   
-   
 
 
 
