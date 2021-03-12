@@ -1,4 +1,4 @@
-# DoJeon1.github.io
+# DoJeon1.github.io | domain name: dojeon.ca
 
 Repository for personal portfolio webpage.
 
