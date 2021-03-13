@@ -13,3 +13,4 @@ A scroll animation is included when clicking an object linked to a different pag
 
 ** add information in the "what i do" section to replace "zzz" **
 ** change images and links in "my work" to personal projects and different page **
+** add a different icon and link in the bottom social links **
