@@ -2,7 +2,7 @@
 
 Repository for personal portfolio webpage
 
-Uses HTML and CSS to build the majority of the site's base.
+Uses HTML and CSS to build the majority of the site's base <br />
 Uses JavaScript to implement specific functionalities and animations for a hamburger style navigation menu
 
 Scrollable website, clickable images are linked to a separate page with a specific project
