@@ -438,8 +438,24 @@ header {
     font-weight: var(--fw-bold);
 }
 
-.social-list__link:hover {
-    opacity: .7;
+/*
+.icon__title{
+    position: absolute;
+    color: inherit;
+    text-align: center;
+    font-size: var(--fs-body);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.social-list__link:hover .icon__title {
+    visibility: visible;
+    opacity: 1;
+}
+*/
+
+.social-list__item:hover {
+    transform: scale(1.5);
 }
 
 .social-list {
@@ -452,6 +468,7 @@ header {
 
 .social-list__item {
     margin: 0 .5em;
+    transition: transform 200ms ease-in-out;
 }
 
 .social-list__link {
