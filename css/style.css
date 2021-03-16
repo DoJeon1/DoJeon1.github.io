@@ -1,7 +1,3 @@
-/* Adapted from online course "Build and deploy your portfolio" */
-/* scrimba.com by Kevin Powell                                  */
-/* code edits made by Daniel Jeon                               */
-
 *,
 *::before,
 *::after {
@@ -442,13 +438,8 @@ header {
     font-weight: var(--fw-bold);
 }
 
-.footer__link:hover,
 .social-list__link:hover {
     opacity: .7;
-}
-
-.footer__link:hover {
-    text-decoration: underline;
 }
 
 .social-list {
