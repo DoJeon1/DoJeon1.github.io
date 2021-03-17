@@ -11,4 +11,7 @@ Scrollable website, clickable images are linked to a separate page with a specif
 <br/> Navigation bar remains on screen when clicked and disappears when an element in the menu is clicked
 <br/> A scroll animation is included when clicking an object linked to a different page
 
+TO DO
 <br/> ** fix the "what i do" bg image so it does not disappear on smaller screens **
+<br/> ** add animations throughout site **
+<br/> **Title overlay on project images **
