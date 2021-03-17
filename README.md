@@ -14,4 +14,5 @@ Scrollable website, clickable images are linked to a separate page with a specif
 TO DO
 <br/> ** fix the "what i do" bg image so it does not disappear on smaller screens **
 <br/> ** add animations throughout site **
-<br/> **Title overlay on project images **
+<br/> ** title overlay on project images **
+<br/> ** subtitle on hover effect for footer icons **
