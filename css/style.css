@@ -248,7 +248,27 @@ header {
 
 .intro {
     position: relative;
+    /* For swing animation
+    animation: swing 1s ease-in-out infinite alternate;
+    transform-origin: center -80px;
+    */
 }
+
+/* swing animation
+@keyframes swing {
+    from { transform: rotate(-6deg); }
+    to { transform: rotate(6deg); }
+}
+
+.intro::before,
+.image::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform: translateX(-50%);
+}
+*/
 
 .intro__img {
     box-shadow: var(--bs);
