@@ -1,3 +1,4 @@
+
 var i = 0;
 var txt = 'STUDENT, ASPIRING DEV';
 var speed = 70;
@@ -8,13 +9,14 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
     }
+}
     /*
     if (i == txt.length) {
         setTimeout(backspace, 500);
     }
-    */
+    
 }
-/*
+
 function backspace() {
     if (i > 0) {
         document.getElementById("intro__text").innerHTML = txt.substring(0, i-1);
@@ -25,6 +27,26 @@ function backspace() {
         typeWriter();
     }
 }
+
+*/
+
+/* 
+var i = 0;
+var txt = 'STUDENT, ASPIRING DEV';
+var speed = 70;
+var backspace = false;
+
+var outputElem = document.getElementById("intro__text");
+function typeWriter() {
+  outputElem.textContent = txt.substring(0, i);
+
+  if (i > txt.length) backspace = true;
+  if (i == 0) backspace = false;
+  i += (backspace ? -1 : 1);
+  
+  setTimeout(typeWriter, speed);
+}
+
 */
 
 typeWriter();

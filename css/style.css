@@ -277,6 +277,7 @@ header {
 
 .section__subtitle--intro {
     display: inline-block;
+    height: 45px;
 }
 
 @media (min-width: 600px) {
@@ -299,7 +300,7 @@ header {
         z-index: 2;
     }    
     
-.section__subtitle--intro {
+    .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
@@ -307,8 +308,8 @@ header {
         left: -1.5em;
         width: calc(100% + 1.5em);
         padding-left: calc(250px + 2.5em);
+    }
 }
-
 
 
 /*  My services section  */
@@ -320,6 +321,7 @@ header {
     background-blend-mode: multiply; /* Darkens the image (makes text easier to read) */
     color: var(--clr-light);
     text-align: center;
+    min-width: 425px;
 }
 
 .section__title--services {
@@ -343,10 +345,10 @@ header {
 }
 
 .service {
-    max-width: 500px;
+    max-width: 425px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     .services {
         display: flex;
         max-width: 1000px;
@@ -518,4 +520,3 @@ ul {
 .social-list__link {
     padding: .5em;
 }
-
