@@ -8,10 +8,11 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
     }
-
+    /*
     if (i == txt.length) {
         setTimeout(backspace, 500);
     }
+    */
 }
 /*
 function backspace() {
@@ -24,6 +25,6 @@ function backspace() {
         typeWriter();
     }
 }
-/*
+*/
 
 typeWriter();
