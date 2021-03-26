@@ -16,6 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #5b82ee;
+    --clr-black: rgba(17, 16, 16, 0.89);
     /* --clr-accent: #1eaf6c; */
     
     --fs-h1: 3rem;
@@ -55,7 +56,10 @@ body {
 }
 
 section {
-    padding: 5em 2em;
+    padding: 5em 4em;
+    margin: 2%;
+    background-color: var(--clr-dark);
+    border-radius: 1em;
 }
 
 img {
