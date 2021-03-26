@@ -1,7 +1,7 @@
 
 var i = 0;
 var txt = 'STUDENT, ASPIRING DEV';
-var speed = 70;
+var speed = 140;
 
 function typeWriter() {
     if (i < txt.length) {
