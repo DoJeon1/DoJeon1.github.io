@@ -4,7 +4,8 @@ Repository for personal portfolio webpage
 
 Uses HTML and CSS to build the majority of the site's base
 <br/> Uses JavaScript to implement specific functionalities and animations
-<br/> <tab/> hamburger style navigation menu, typing animation
+<br/>   - hamburger style navigation menu
+        - typing animation
 
 Navigate site by scrolling, elements that have a hover animation are clickable and are linked to different sections of the site
 <br/> Shadows are added behind images for aesthetics, coloured border appears when tabbing between elements
