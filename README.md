@@ -13,7 +13,7 @@ Hamburger style navigation bar to jump between sections, remains on screen when 
 A scroll animation is included while transitioning between sections after a link is clicked
 
 TO DO <br/> 
-*dark mode/light mode settings? <br/> 
-edit/change profile picture to match color scheme <br/> 
-change site format to have distinguishable sections <br/> 
-add backspace animation and cursor for the typing animation*
+- *dark mode/light mode settings? <br/> 
+- edit/change profile picture to match color scheme <br/> 
+- change site format to have distinguishable sections <br/> 
+- add backspace animation and cursor for the typing animation*
