@@ -369,6 +369,7 @@ header {
 /* About me section */
 
 .about-me {
+    min-width: 320px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -412,7 +413,7 @@ header {
 
 /* My Work */
 .my-work {
-    min-width: 425px;
+    min-width: 320px;
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
