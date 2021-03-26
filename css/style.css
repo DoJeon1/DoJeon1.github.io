@@ -16,7 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #5b82ee;
-    --clr-black: rgb(15, 15, 15);
+    --clr-black: rgb(18, 18, 18);
     /* --clr-accent: #1eaf6c; */
     
     --fs-h1: 3rem;
@@ -47,7 +47,7 @@ html {
 }
 
 body {
-    background: var(--clr-dark);
+    background: var(--clr-black);
     color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
@@ -58,7 +58,7 @@ body {
 section {
     padding: 5em 4em;
     margin: 2%;
-    background-color: var(--clr-dark);
+    /* background-color: var(--clr-dark); */
     border-radius: 1em;
 }
 
