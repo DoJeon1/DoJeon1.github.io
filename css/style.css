@@ -30,7 +30,7 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 640px) {
     :root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
@@ -280,10 +280,10 @@ header {
 
 .section__subtitle--intro {
     display: inline-block;
-    height: 45px;
+    min-height: 45px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
     .intro {
         display: grid;
         width: min-content;
@@ -377,7 +377,7 @@ header {
     box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
@@ -411,50 +411,51 @@ header {
 }
 
 /* My Work */
-
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
 }
 
-.portfolio {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+@media (min-width: 640px) {
+    .portfolio {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 
-.portfolio__item {
-    background: var(--clr-accent);
-    overflow: hidden;
-    border-radius: 1em;
-}
+    .portfolio__item {
+        background: var(--clr-accent);
+        overflow: hidden;
+        border-radius: 1em;
+    }
 
-.portfolio__img {
-    transition: 
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
-}
+    .portfolio__img {
+        transition: 
+            transform 750ms cubic-bezier(.5, 0, .5, 1),
+            opacity 250ms linear;
+    }
 
-.portfolio__item:focus {
-    position: relative;
-    z-index: 2;
-}
+    .portfolio__item:focus {
+        position: relative;
+        z-index: 2;
+    }
 
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
-    opacity: .5;
-}
+    .portfolio__img:hover,
+    .portfolio__item:focus .portfolio__img {
+        transform: scale(1.2);
+        opacity: .5;
+    }
 
-.project__txt {
-    font-family: var(--ff-primary);
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
+    .project__txt {
+        font-family: var(--ff-primary);
+        font-size: var(--fs-h3);
+        font-weight: var(--fw-bold);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
 }
 
 /* footer */
