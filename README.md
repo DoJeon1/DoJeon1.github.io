@@ -1,7 +1,5 @@
 # DoJeon1.github.io | domain name: dojeon.ca
 
-Repository for personal portfolio webpage
-
 Uses HTML and CSS to build the majority of the site's base <br/> 
 Uses JavaScript to implement specific functionalities and animations <br/>   
 - hamburger style navigation menu <br/>   
