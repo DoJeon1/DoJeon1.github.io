@@ -16,7 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #5b82ee;
-    --clr-black: rgba(17, 16, 16, 0.89);
+    --clr-black: rgb(15, 15, 15);
     /* --clr-accent: #1eaf6c; */
     
     --fs-h1: 3rem;
@@ -421,13 +421,14 @@ header {
 
 .portfolio {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    border-radius: 1em;
 }
 
 .portfolio__img {
