@@ -412,6 +412,7 @@ header {
 
 /* My Work */
 .my-work {
+    min-width: 425px;
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
