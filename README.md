@@ -11,7 +11,5 @@ Navigate site by scrolling, elements that have a hover animation are clickable a
 <br/> A scroll animation is included while transitioning between sections after a link is clicked
 
 TO DO
-<br/> ** fix the "what i do" bg image, footer icons so it does not disappear on smaller screens **
-<br/> ** add typing animation for the intro subtitle **
 <br/> ** dark mode/light mode settings? **
 <br/> ** edit/change profile picture to match color scheme **
