@@ -370,15 +370,14 @@ header {
 
 .about-me {
     min-width: 320px;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .about-me__img {
     box-shadow: var(--bs);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 640px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
@@ -416,7 +415,8 @@ header {
     min-width: 320px;
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: center; 
+    margin: auto;
 }
 
 .portfolio {
