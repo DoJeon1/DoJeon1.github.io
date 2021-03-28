@@ -370,6 +370,7 @@ header {
 
 .about-me {
     min-width: 320px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -462,12 +463,12 @@ header {
 /* footer */
 
 .footer {
-    background: #111;
+    background: var(--clr-black);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
-
+    margin: auto;
 }
 
 .footer a { 
