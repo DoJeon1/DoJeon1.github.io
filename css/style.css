@@ -268,7 +268,8 @@ header {
 
 .intro {
     position: relative;
-    justify-items: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .intro__img {
