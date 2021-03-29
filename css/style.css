@@ -268,8 +268,7 @@ header {
 
 .intro {
     position: relative;
-    display: block;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .intro__img {
