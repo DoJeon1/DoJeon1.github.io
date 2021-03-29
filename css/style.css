@@ -268,7 +268,7 @@ header {
 
 .intro {
     position: relative;
-    width: 100%;
+    display: flex-box;
 }
 
 .intro__img {
