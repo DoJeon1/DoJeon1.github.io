@@ -268,7 +268,7 @@ header {
 
 .intro {
     position: relative;
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 
