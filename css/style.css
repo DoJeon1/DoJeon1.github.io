@@ -200,7 +200,7 @@ header {
 /* Adding JS elements for desired responses */
 
 .nav-open .nav {
-    transform: translateY(-95%);
+    transform: translateY(-94%);
 }
 
 .nav-open .nav-toggle {
