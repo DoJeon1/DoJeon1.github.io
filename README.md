@@ -13,5 +13,4 @@ A scroll animation is included while transitioning between sections after a link
 TO DO <br/> 
 - dark mode/light mode settings? <br/> 
 - edit/change profile picture to match color scheme <br/> 
-- change site format to have distinguishable sections <br/> 
 - add backspace animation and cursor for the typing animation
