@@ -1,4 +1,3 @@
-# Portfolio website repository
 # DoJeon1.github.io | domain name: dojeon.ca
 
 Uses HTML and CSS to build the majority of the site's base <br/> 
