@@ -280,6 +280,23 @@ header {
     min-height: 45px;
 }
 
+/* Type cursor blink effect */
+.section__subtitle:after {
+    content: '|';
+    opacity: 0;
+    display: inline-block;
+    animation: blink 0.9s linear infinite alternate;
+  }
+  
+  @keyframes blink {
+    60% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
 @media (min-width: 640px) {
     .intro {
         display: grid;
