@@ -5,7 +5,6 @@
 }
 
 /* Custom Properties, update these for your own design */
-
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -39,7 +38,7 @@
     }
 }
 
-/* General styles */
+/* General styling */
 
 /* Adds a scrolling animation when a link is clicked on the webpage */
 html {
@@ -74,7 +73,6 @@ strong { font-weight: var(--fw-bold) }
 }
 
 /* Buttons */
-
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
@@ -94,7 +92,6 @@ strong { font-weight: var(--fw-bold) }
 }
 
 /* Typography */
-
 h1,
 h2,
 h3 {
@@ -139,7 +136,6 @@ h3 { font-size: var(--fs-h3) }
 }
 
 /* header */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -198,7 +194,6 @@ header {
 }
 
 /* Adding JS elements for desired responses */
-
 .nav-open .nav {
     transform: translateY(calc(-95% + 2.5rem));
 }
@@ -220,7 +215,6 @@ header {
 }
 
 /* Back to native CSS */
-
 .hamburger {
     display: block;
     position: relative;
@@ -265,7 +259,6 @@ header {
 }
 
 /*  Intro section  */
-
 .intro {
     position: relative;
     display: flex-box;
@@ -330,7 +323,6 @@ header {
 
 
 /*  My services section  */
-
 .my-services {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpeg);
@@ -381,7 +373,6 @@ header {
 }
 
 /* About me section */
-
 .about-me {
     min-width: 320px;
     max-width: 1200px;
