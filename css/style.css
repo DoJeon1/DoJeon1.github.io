@@ -274,7 +274,7 @@ header {
 }
 
 /* Type cursor blink effect */
-.section__subtitle:after {
+.section__subtitle--intro:after {
     content: '|';
     opacity: 0;
     display: inline-block;
