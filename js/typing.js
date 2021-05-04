@@ -11,27 +11,17 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
     }
-}
-
-    /*
-    if (i == txt.length) {
-        setTimeout(backspace, 500);
-    }
+    /**
     
-}
-
-function backspace() {
-    if (i > 0) {
+     
+    if (i >= txt.length) {
         document.getElementById("intro__text").innerHTML = txt.substring(0, i-1);
         i--;
-        setTimeout(backspace, speed);
-    }
-    if (i == 0) {
-        typeWriter();
-    }
+        setTimeout(typeWriter, speed);
+    }*/
 }
 
-*/
+
 
 /* 
 var i = 0;
