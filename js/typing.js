@@ -8,19 +8,19 @@ var backspace = false
 
 function typeWriter() {
     document.getElementById("intro__text").innerHTML = txt.substring(0, i);
-    if (i < txt.length) {
-
+    if (!backspace) {
         i++;
-        setTimeout(typeWriter, speed);
     }
-    /**
-    
-     
-    if (i >= txt.length) {
-        document.getElementById("intro__text").innerHTML = txt.substring(0, i-1);
+    if (backspace) {
         i--;
-        setTimeout(typeWriter, speed);
-    }*/
+    }
+    if (i >= txt.length) {
+        backspace = true;
+    }
+    if (i == 0) {
+        backspace = false;
+    }
+    setTimeout(typeWriter, speed)
 }
 
 
