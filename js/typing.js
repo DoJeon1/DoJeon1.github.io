@@ -4,10 +4,12 @@
 var i = 0;
 var txt = 'STUDENT, ASPIRING DEV';
 var speed = 140;
+var backspace = false
 
 function typeWriter() {
+    document.getElementById("intro__text").innerHTML = txt.substring(0, i);
     if (i < txt.length) {
-        document.getElementById("intro__text").innerHTML += txt.charAt(i);
+
         i++;
         setTimeout(typeWriter, speed);
     }
