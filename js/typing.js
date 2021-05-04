@@ -12,7 +12,7 @@ function typeWriter() {
         i++;
     }
     if (backspace) {
-        i--;
+        //i--;
     }
     if (i == txt.length) {
         backspace = true;
