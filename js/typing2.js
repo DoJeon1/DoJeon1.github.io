@@ -1,5 +1,5 @@
 /**
- * Typewriter effect code
+ * Typewriter effect code for "norae.html"
  */ 
  var i = 0;
  var txt = 'Django Based Music Player';

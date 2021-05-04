@@ -1,8 +1,8 @@
 /**
- * Typewriter code
+ * Typewriter effect code for "index.html"
  */
 var i = 0;
-var txt = 'STUDENT, ASPIRING DEV';
+var txt = 'STUDENT, ASPIRING DEVELOPER';
 var speed = 140;
 var backspace = false
 
@@ -12,15 +12,16 @@ function typeWriter() {
         i++;
     }
     if (backspace) {
-       // i--;
+        i--;
     }
-    if (i >= txt.length) {
+    if (i == txt.length) {
         backspace = true;
+        clearTimeout(content);
     }
     if (i == 0) {
         backspace = false;
     }
-    setTimeout(typeWriter, speed)
+    content = setTimeout(typeWriter, speed)
 }
 
 typeWriter();
