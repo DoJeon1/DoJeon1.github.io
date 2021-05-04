@@ -278,7 +278,7 @@ header {
     content: '|';
     opacity: 0;
     display: inline-block;
-    animation: blink 0.9s linear infinite alternate;
+    animation: blink 0.7s linear infinite alternate;
   }
   
   @keyframes blink {
