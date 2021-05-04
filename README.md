@@ -10,7 +10,7 @@ Uses JavaScript to implement specific functionalities and animations
 - typing animations
 
 **NAVIGATION**
-- continuous scroll design site with the information all on one page
+- continuous scroll design with all of the information on one page
 - hamburger nav bar has quick links to different sections of the page
 - clicking a project image will bring the user to a different page; use the hamburger menu to navigate back to the home page
 
