@@ -16,5 +16,8 @@ Uses JavaScript to implement specific functionalities and animations
 
 **TO DO**
 - dark mode/light mode settings? <br/> 
-- edit/change profile picture to match color scheme <br/> 
+- edit/change profile picture to match color scheme <br/>
+- remove secondary image <br/>
+- reformat section blocks <br/>
+- add background animation <br/> 
 - add backspace animation
