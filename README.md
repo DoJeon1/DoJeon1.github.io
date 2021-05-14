@@ -5,9 +5,9 @@ Uses HTML and CSS to build the majority of the site's base  <br/>
 Uses JavaScript to implement specific functionalities and animations
 - images and colour scheme
 - buttons and hover effects
+- typing animations
 - blinking cursor effect
 - hamburger style navigation menu <br/>   
-- typing animations
 
 **NAVIGATION**
 - continuous scroll design with all of the information on one page
@@ -21,3 +21,4 @@ Uses JavaScript to implement specific functionalities and animations
 - reformat section blocks <br/>
 - add background animation <br/> 
 - add backspace animation
+- add more project pages
