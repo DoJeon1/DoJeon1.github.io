@@ -331,7 +331,6 @@ header {
     background-blend-mode: multiply; /* Darkens the image (makes text easier to read) */
     color: var(--clr-light);
     text-align: center;
-    min-width: 425px;
 }
 
 .section__title--services {
