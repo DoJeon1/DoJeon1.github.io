@@ -415,6 +415,14 @@ header {
         position: relative;
         z-index: 2;
     }
+
+    .about-me__body  {
+        display: flex;
+    }
+
+    .about-me__section {
+        flex: 50%;
+    }
 }
 
 /* My Work */
