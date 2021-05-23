@@ -3,7 +3,7 @@
 **BUILD** <br/>
 Uses HTML and CSS to build the majority of the site's base  <br/>
 - images and colour scheme
-- buttons and hover effects <br/>
+- buttons and hover effects 
 Uses JavaScript to implement specific functionalities and animations
 - typing animations
 - blinking cursor effect
