@@ -1,10 +1,11 @@
 # DoJeon1.github.io | domain name: [dojeon.ca](https://dojeon.ca/)
 
 **BUILD** <br/>
-Uses HTML and CSS to build the majority of the site's base  <br/>
-Uses JavaScript to implement specific functionalities and animations
+HTML and CSS to build the majority of the site's base  <br/>
 - images and colour scheme
-- buttons and hover effects
+- buttons and hover effects 
+
+JavaScript to implement specific functionalities and animations
 - typing animations
 - blinking cursor effect
 - hamburger style navigation menu <br/>   
