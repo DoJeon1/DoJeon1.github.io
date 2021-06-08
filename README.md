@@ -17,7 +17,6 @@ JavaScript to implement specific functionalities and animations
 
 **TO DO**
 - dark mode/light mode settings? <br/> 
-- remove secondary image <br/>
 - reformat section blocks <br/>
 - add background animation <br/> 
 - add backspace animation
