@@ -1,11 +1,9 @@
 # DoJeon1.github.io | domain name: [dojeon.ca](https://dojeon.ca/)
 
 **BUILD** <br/>
-HTML and CSS to build the majority of the site's base  <br/>
+HTML, CSS, and JavaScript  <br/>
 - images and colour scheme
 - buttons and hover effects 
-
-JavaScript to implement specific functionalities and animations
 - typing animations
 - blinking cursor effect
 - hamburger style navigation menu <br/>   
@@ -20,4 +18,5 @@ JavaScript to implement specific functionalities and animations
 - reformat section blocks <br/>
 - add background animation <br/> 
 - add backspace animation
+- cycling text for the typewriter?
 - add more project pages
