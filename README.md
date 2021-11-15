@@ -14,6 +14,7 @@ HTML, CSS, and JavaScript  <br/>
 - clicking a project image will bring the user to a different page; use the hamburger menu to navigate back to the home page
 
 **TO DO**
+- redesign webpage
 - dark mode/light mode settings? <br/> 
 - reformat section blocks <br/>
 - add background animation <br/> 
