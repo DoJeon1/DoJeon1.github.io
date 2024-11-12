@@ -2,7 +2,7 @@
  * Typewriter effect code for "index.html"
  */
 var i = 0;
-var txt = 'STUDENT, ASPIRING DEVELOPER';
+var txt = 'OUTDOOR & INDOOR ENTHUSIAST';
 var speed = 140;
 var backspace = false
 
